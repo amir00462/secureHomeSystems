@@ -6,6 +6,8 @@ import androidx.room.PrimaryKey
 @Entity("member_table")
 data class Member(
 
+
+
     @PrimaryKey(autoGenerate = true)
     val id: Int? = null,
 
